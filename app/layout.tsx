@@ -8,9 +8,10 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.app",
+  title: "SF Parking",
+  description:
+    "Find San Francisco street cleaning times and sides for your block.",
+  generator: "sf-parking",
 }
 
 export default function RootLayout({
